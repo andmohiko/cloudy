@@ -6,13 +6,16 @@ module.exports = {
     es2020: true
   },
   extends: [
+    'next',
+    'next/core-web-vitals',
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:tailwindcss/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -22,7 +25,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'react', 'import'],
+  plugins: ['@typescript-eslint', 'react', 'import', 'tailwindcsst'],
   settings: {
     'import/resolver': {
       node: {

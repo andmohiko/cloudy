@@ -19,6 +19,10 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <div className='border-solid border-2 border-blue-500'>
+        <p className='text-6xl font-bold'>ぼーだーだーだーえれめ</p>
+        </div>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
