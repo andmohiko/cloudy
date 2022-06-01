@@ -25,7 +25,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'react', 'import', 'tailwindcsst'],
+  plugins: ['@typescript-eslint', 'react', 'import', 'tailwindcss'],
   settings: {
     'import/resolver': {
       node: {
@@ -85,6 +85,7 @@ module.exports = {
         printWidth: 80,
         tabWidth: 2
       }
-    ]
+    ],
+    'tailwindcss/no-custom-classname': 'off'
   }
 }
