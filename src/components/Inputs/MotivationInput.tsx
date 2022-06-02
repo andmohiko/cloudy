@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { BiImageAdd } from 'react-icons/bi'
-
 export const MotivationInput = (): React.ReactElement => {
   return (
     <div className="gap-8 items-center w-full form-control">

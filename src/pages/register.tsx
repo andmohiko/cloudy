@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import classNames from 'classnames'
-import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 import styles from '../styles/Home.module.css'

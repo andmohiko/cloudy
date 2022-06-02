@@ -12,6 +12,7 @@ import styles from '@/styles/Home.module.css'
 const UserPage: NextPage = () => {
   const router = useRouter()
   const { id: userID } = router.query
+  console.log({ userID })
 
   const user: User = {
     userID: 'user1',

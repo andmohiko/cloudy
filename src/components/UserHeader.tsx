@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const UserHeader = () => {
+import { AiOutlineUser } from 'react-icons/ai'
+export const UserHeader = (): React.ReactElement => {
   return (
     <div className="fixed top-0 z-30 navbar bg-base-100">
       <div className="flex-1">
@@ -8,7 +9,7 @@ export const UserHeader = () => {
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">
-          <label tabIndex="0" className="btn btn-ghost btn-circle">
+          <label tabIndex={0} className="btn btn-ghost btn-circle">
             <button className="btn btn-ghost btn-circle">
               <div className="indicator">
                 <svg
@@ -30,7 +31,7 @@ export const UserHeader = () => {
             </button>
           </label>
           <div
-            tabIndex="0"
+            tabIndex={0}
             className="mt-3 w-52 shadow card card-compact dropdown-content bg-base-100"
           >
             <div className="card-body">
@@ -43,13 +44,13 @@ export const UserHeader = () => {
           </div>
         </div>
         <div className="dropdown dropdown-end">
-          <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
+          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
-              <img src="https://api.lorem.space/image/face?hash=33791" />
+              <AiOutlineUser />
             </div>
           </label>
           <ul
-            tabIndex="0"
+            tabIndex={0}
             className="p-2 mt-3 w-52 shadow menu menu-compact dropdown-content bg-base-100 rounded-box"
           >
             <li>
