@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { AiOutlineSetting, AiOutlineCamera } from 'react-icons/ai'
 import { BsPencil } from 'react-icons/bs'
 
@@ -43,9 +44,11 @@ const MyPage: NextPage = () => {
             <button className="btn btn-circle">
               <AiOutlineCamera size={24} />
             </button>
-            <button className="btn btn-circle">
-              <BsPencil size={24} />
-            </button>
+            <Link href="edit">
+              <button className="btn btn-circle">
+                <BsPencil size={24} />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
