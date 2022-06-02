@@ -14,7 +14,7 @@ export const HomeFooter = (): React.ReactElement => {
           <span className="text-xs">ホーム</span>
         </button>
       </Link>
-      <Link href={'/user/user1'}>
+      <Link href={'/chats'}>
         <button className="container flex-col gap-1 mx-auto">
           <BsChatDots size={24} />
           <span className="text-xs">チャット</span>
