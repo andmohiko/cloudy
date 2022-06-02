@@ -4,11 +4,14 @@ import type { NextPage } from 'next'
 
 import { HomeLayout } from '@/components/Layouts/HomeLayout'
 import { UserCard } from '@/components/UserCard'
+import { User } from '@/entities'
 
 const Home: NextPage = () => {
   const users: User[] = [
     {
       userID: 'user1',
+      age: 21,
+      location: '池袋',
       profileImageURL: '/images/katame.jpeg',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
@@ -16,6 +19,8 @@ const Home: NextPage = () => {
     },
     {
       userID: 'user2',
+      age: 21,
+      location: '池袋',
       profileImageURL: '/images/katame.jpeg',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
@@ -23,6 +28,8 @@ const Home: NextPage = () => {
     },
     {
       userID: 'user3',
+      age: 21,
+      location: '池袋',
       profileImageURL: '/images/katame.jpeg',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
@@ -30,6 +37,8 @@ const Home: NextPage = () => {
     },
     {
       userID: 'user4',
+      age: 21,
+      location: '池袋',
       profileImageURL: '/images/katame.jpeg',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
