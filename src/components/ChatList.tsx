@@ -12,7 +12,7 @@ export const ChatList = (): React.ReactElement => {
       lastMessage: '電話しよ！',
       lastMessageAt: new Date(2022, 5, 1, 22, 0, 0),
       userID: 'user1',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       updatedAt: new Date(2022, 5, 1, 22, 0, 0),
       username: 'りあ'
     },
@@ -22,7 +22,7 @@ export const ChatList = (): React.ReactElement => {
       lastMessage: '電話しよ！',
       lastMessageAt: new Date(2022, 5, 1, 22, 0, 0),
       userID: 'user2',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       updatedAt: new Date(2022, 5, 1, 22, 0, 0),
       username: 'りあ'
     },
@@ -32,7 +32,7 @@ export const ChatList = (): React.ReactElement => {
       lastMessage: '電話しよ！',
       lastMessageAt: new Date(2022, 5, 1, 22, 0, 0),
       userID: 'user3',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       updatedAt: new Date(2022, 5, 1, 22, 0, 0),
       username: 'りあ'
     },
@@ -42,7 +42,7 @@ export const ChatList = (): React.ReactElement => {
       lastMessage: '電話しよ！',
       lastMessageAt: new Date(2022, 5, 1, 22, 0, 0),
       userID: 'user4',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       updatedAt: new Date(2022, 5, 1, 22, 0, 0),
       username: 'りあ'
     },
@@ -52,7 +52,7 @@ export const ChatList = (): React.ReactElement => {
       lastMessage: '電話しよ！',
       lastMessageAt: new Date(2022, 5, 1, 22, 0, 0),
       userID: 'user5',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       updatedAt: new Date(2022, 5, 1, 22, 0, 0),
       username: 'りあ'
     }

@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       userID: 'user1',
       age: 21,
       location: '池袋',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
       username: 'りあ'
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       userID: 'user2',
       age: 21,
       location: '池袋',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
       username: 'りあ'
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       userID: 'user3',
       age: 21,
       location: '池袋',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
       username: 'りあ'
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       userID: 'user4',
       age: 21,
       location: '池袋',
-      profileImageURL: '/images/katame.jpeg',
+      profileImageURL: '/images/splash.png',
       selfIntroduction:
         'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
       username: 'りあ'
