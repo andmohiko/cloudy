@@ -7,7 +7,7 @@ type Props = {
   children?: ReactNode
 }
 
-export const HomeLayout: React.FC = ({ children }: Props) => (
+export const HomeLayout = ({ children }: Props): React.ReactElement => (
   <div className="h-screen">
     <UserHeader />
     <main className="container mx-auto h-100">{children}</main>
