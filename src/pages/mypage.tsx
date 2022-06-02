@@ -24,8 +24,8 @@ const MyPage: NextPage = () => {
     <HomeLayout>
       <div className={styles.main}>
         <div className="flex flex-col gap-8">
-          <div className="avatar">
-            <div className="w-48 rounded-full ring ring-offset-2 ring-primary ring-offset-base-100">
+          <div className="w-48 h-48 avatar">
+            <div className="w-full h-auto rounded-full ring ring-offset-2 ring-primary ring-offset-base-100">
               <Image
                 className="rounded-full"
                 src={user.profileImageURL}
