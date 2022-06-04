@@ -15,7 +15,7 @@ export const HomeFooter = (): React.ReactElement => {
       </Link>
       <Link href={'/'}>
         <button className="container justify-center mx-auto">
-          <AiOutlineCompass size={30} />
+          <AiOutlineCompass size={30} color="#777" />
         </button>
       </Link>
       <Link href={'/chats'}>

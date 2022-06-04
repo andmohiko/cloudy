@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { me } from '@/entities'
-export const UserHeader = (): React.ReactElement => {
+export const HomeHeader = (): React.ReactElement => {
   const user = me
 
   return (
