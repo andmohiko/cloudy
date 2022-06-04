@@ -4,7 +4,7 @@ import { BiImageAdd } from 'react-icons/bi'
 
 export const UserBasicInfoInput = (): React.ReactElement => {
   return (
-    <div className="gap-8 items-center w-full form-control">
+    <div className="gap-24 items-center w-full form-control">
       <div className="avatar placeholder">
         <div className="w-36 rounded-full bg-neutral-focus text-neutral-content">
           <BiImageAdd size={48} />

@@ -31,37 +31,29 @@ const RegisterPage: NextPage = () => {
 
   return (
     <HomeLayout>
-      <div className={styles.main}>
-        <div className="flex flex-col gap-8 items-center">
-          <ul className="gap-4 steps">
-            <li
-              className={classNames('step', { 'step-primary': step === 0 })}
-            />
-            <li
-              className={classNames('step', { 'step-primary': step === 1 })}
-            />
-            <li
-              className={classNames('step', { 'step-primary': step === 2 })}
-            />
-          </ul>
+      <div className="flex flex-col gap-8 justify-between items-center py-8 h-full">
+        <ul className="gap-4 steps">
+          <li className={classNames('step', { 'step-primary': step === 0 })} />
+          <li className={classNames('step', { 'step-primary': step === 1 })} />
+          <li className={classNames('step', { 'step-primary': step === 2 })} />
+        </ul>
 
-          {step === 0 && <UserBasicInfoInput />}
-          {step === 1 && <MotivationInput />}
-          {step === 2 && <SelfIntroductionInput />}
+        {step === 0 && <UserBasicInfoInput />}
+        {step === 1 && <MotivationInput />}
+        {step === 2 && <SelfIntroductionInput />}
 
-          <div className="flex flex-col gap-2 w-48">
-            <button className="btn btn-primary" onClick={toNextStep}>
-              {step === 2 ? '登録' : '次へ'}
-            </button>
-            <button
-              className={classNames('btn btn-ghost btn-secondary', {
-                'btn-disabled': step === 0
-              })}
-              onClick={toPreviousStep}
-            >
-              戻る
-            </button>
-          </div>
+        <div className="flex flex-col gap-2 w-48">
+          <button className="btn btn-primary" onClick={toNextStep}>
+            {step === 2 ? '登録' : '次へ'}
+          </button>
+          <button
+            className={classNames('btn btn-ghost btn-secondary', {
+              'btn-disabled': step === 0
+            })}
+            onClick={toPreviousStep}
+          >
+            戻る
+          </button>
         </div>
       </div>
     </HomeLayout>
