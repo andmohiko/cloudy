@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Link from 'next/link'
-import { AiOutlineSearch } from 'react-icons/ai'
+import { AiOutlineCompass } from 'react-icons/ai'
 import { BiHomeHeart } from 'react-icons/bi'
 import { BsChatDots } from 'react-icons/bs'
 
@@ -15,7 +15,7 @@ export const HomeFooter = (): React.ReactElement => {
       </Link>
       <Link href={'/'}>
         <button className="container justify-center mx-auto">
-          <AiOutlineSearch size={30} />
+          <AiOutlineCompass size={30} />
         </button>
       </Link>
       <Link href={'/chats'}>

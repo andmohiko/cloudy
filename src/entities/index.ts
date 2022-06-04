@@ -38,3 +38,13 @@ export interface Chat {
   profileImageURL: User['profileImageURL']
   username: User['username']
 }
+
+export const me: User = {
+  userID: 'user1',
+  age: 21,
+  location: '池袋',
+  profileImageURL: '/images/splash.png',
+  selfIntroduction:
+    'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
+  username: 'りあ'
+}

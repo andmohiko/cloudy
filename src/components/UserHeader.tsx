@@ -1,12 +1,29 @@
 import React from 'react'
 
-import { AiOutlineUser } from 'react-icons/ai'
+import Image from 'next/image'
+import Link from 'next/link'
+
+import { me } from '@/entities'
 export const UserHeader = (): React.ReactElement => {
+  const user = me
+
   return (
-    <div className="fixed top-0 z-30 navbar bg-base-100">
-      <div className="flex-1">
-        <a className="text-xl normal-case btn btn-ghost">daisyUI</a>
+    <div className="justify-between px-4 w-[520px] navbar bg-base-200">
+      <Link href="mypage">
+        <div className="w-10 h-10 cursor-pointer avatar">
+          <Image
+            src={user.profileImageURL}
+            alt={user.username}
+            layout="fill"
+            className="rounded-full"
+          />
+        </div>
+      </Link>
+
+      <div>
+        <span className="text-xl font-bold">cloudy</span>
       </div>
+
       <div className="flex-none">
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -42,30 +59,6 @@ export const UserHeader = (): React.ReactElement => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 rounded-full">
-              <AiOutlineUser />
-            </div>
-          </label>
-          <ul
-            tabIndex={0}
-            className="p-2 mt-3 w-52 shadow menu menu-compact dropdown-content bg-base-100 rounded-box"
-          >
-            <li>
-              <a className="justify-between">
-                Profile
-                <span className="badge">New</span>
-              </a>
-            </li>
-            <li>
-              <a>Settings</a>
-            </li>
-            <li>
-              <a>Logout</a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
