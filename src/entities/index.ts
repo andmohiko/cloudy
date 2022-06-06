@@ -35,7 +35,6 @@ export interface Chat {
   userID: User['userID']
   createdAt: Date
   message: string
-  profileImageURL: User['profileImageURL']
   username: User['username']
 }
 
@@ -47,4 +46,12 @@ export const me: User = {
   selfIntroduction:
     'コスプレをしています！\n普段は歌舞伎でサキュバスの格好をしながらシーシャを提供しています',
   username: 'りあ'
+}
+
+export const myChat: Chat = {
+  userID: me['userID'],
+  createdAt: new Date(2022, 5, 1, 22, 14, 0),
+  message:
+    'おはよー！おはあり〜\nぺこぺこー！エコーエコー\nぽきたw魔剤ンゴ？！ありえん良さみが深いw次郎からのセイクで優勝せえへん？そり！そりすぎてソリになった！や、漏れのモタクとかしたことのNASAwそりでは無限に練りをしまつ。ぽやしみ〜',
+  username: me['username']
 }
