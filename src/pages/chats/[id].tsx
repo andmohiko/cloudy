@@ -10,7 +10,9 @@ const ChatPage: NextPage = () => {
 
   return (
     <ChatLayout>
-      <div className="p-2">
+      <div className="flex flex-col gap-3 p-2">
+        <ChatBubble user={user} chat={chat} isMine={true} />
+        <ChatBubble user={user} chat={chat} isMine={false} />
         <ChatBubble user={user} chat={chat} isMine={true} />
         <ChatBubble user={user} chat={chat} isMine={false} />
       </div>

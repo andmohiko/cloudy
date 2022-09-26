@@ -58,7 +58,7 @@ export const ChatList = (): React.ReactElement => {
     }
   ]
   return (
-    <div className="h-96">
+    <div className="w-full h-96">
       <h2 className="mb-4 text-xl font-bold">メッセージ</h2>
       <div className="flex overflow-scroll flex-col gap-4 w-full h-full">
         {matches.map((match) => (
