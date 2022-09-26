@@ -5,7 +5,7 @@ import { IoClose } from 'react-icons/io5'
 
 export const LikeAction = (): React.ReactElement => {
   return (
-    <div className="w-screen h-48 shadow-xl bg-base-200 ">
+    <div className="w-[520px] h-48 shadow-xl bg-base-200 ">
       <div className="gap-6 items-center card-body">
         <p className="flex flex-col text-center ">
           <span className="text-xl font-bold">りあさんのプロフィールを</span>
