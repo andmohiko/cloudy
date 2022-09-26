@@ -12,7 +12,7 @@ export const HomeLayout = ({ children }: Props): React.ReactElement => (
     <div className="flex fixed top-0 z-30 justify-center w-screen border-t border-stone-600 border-solid">
       <HomeHeader />
     </div>
-    <main className="flex overflow-scroll flex-col my-16 w-[520px] h-full">
+    <main className="flex overflow-scroll flex-col py-4 my-16 w-[520px] h-full">
       {children}
     </main>
     <div className="flex fixed bottom-0 z-30 justify-center w-screen border-t border-stone-600 border-solid">
