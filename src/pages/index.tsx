@@ -48,13 +48,11 @@ const Home: NextPage = () => {
 
   return (
     <HomeLayout>
-      <main className={styles.main}>
-        <div className="stack">
-          {users.map((user) => (
-            <UserCard key={user.userID} user={user} />
-          ))}
-        </div>
-      </main>
+      <div className="stack">
+        {users.map((user) => (
+          <UserCard key={user.userID} user={user} />
+        ))}
+      </div>
     </HomeLayout>
   )
 }

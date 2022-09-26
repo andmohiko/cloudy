@@ -10,12 +10,10 @@ import { HomeLayout } from '@/components/Layouts/HomeLayout'
 const MyPage: NextPage = () => {
   return (
     <HomeLayout>
-      <div className={styles.main}>
-        <div className="flex flex-col gap-8">
-          <UserBasicInfoInput />
-          <MotivationInput />
-          <SelfIntroductionInput />
-        </div>
+      <div className="flex flex-col gap-48">
+        <UserBasicInfoInput />
+        <MotivationInput />
+        <SelfIntroductionInput />
       </div>
     </HomeLayout>
   )
